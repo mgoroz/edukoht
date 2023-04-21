@@ -1,5 +1,5 @@
 // Connect to server using WebSocket
-const ws = new WebSocket("ws://localhost:3000");
+const ws = new WebSocket("ws://enos.itcollege.ee:3000");
 
 // Listen for incoming messages
 ws.onmessage = function(event) {
